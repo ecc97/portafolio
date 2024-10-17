@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <section className="flex justify-between w-full h-screen px-8">
+    <section className="flex justify-between w-full px-8">
       <div className="w-1/2 flex flex-col items-center justify-center gap-4">
         <h2 className=" text-2xl">Acerca de mi</h2>
         <p>
