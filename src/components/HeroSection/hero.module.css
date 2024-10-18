@@ -5,3 +5,14 @@
 .heroIconSocialNetwork:hover {
     transform: rotate(360deg)
 }
+
+.imgAvatar {
+    width: 200px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+}
+
+.imgAvatar:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(255, 254, 254, 0.5));
+}
