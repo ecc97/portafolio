@@ -10,7 +10,7 @@ const navBarItems = [
 
 export default function Navbar() {
     return (
-        <nav className="flex justify-center gap-4 p-5 bg-blue-500 fixed w-full">
+        <nav className="flex justify-center gap-4 p-5 bg-blue-500 fixed w-full z-10">
             {navBarItems.map((navItem, key) => (
                 <NavLinkItem key={key} path={navItem.path} title={navItem.title}/>
             ))}
