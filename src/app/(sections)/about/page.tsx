@@ -1,15 +1,22 @@
+import ListSkillsTech from "@/components/Skills/ListSkillsTech";
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
-    <section className="flex justify-between w-full px-8">
+    <section className="flex flex-col justify-center items-center w-full px-8 py-16 md:flex-row md:justify-between md:py-36">
       <div className="w-1/2 flex flex-col items-center justify-center gap-4">
         <h2 className=" text-2xl">Acerca de mi</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, architecto dolorum repellat recusandae eos saepe similique unde eligendi quo reprehenderit consequatur temporibus tempore ipsum sequi et laudantium excepturi ab. Assumenda!
-          Enim, est. Commodi, totam voluptatibus suscipit, fuga impedit fugiat harum quos ipsam placeat, hic rerum ullam possimus dolor ratione ab natus! Voluptate sed facilis vel itaque, recusandae error repellendus iste.
-          Delectus quam facere modi atque laudantium quo deserunt eaque. Alias corporis eveniet modi cupiditate eligendi fuga autem non laboriosam placeat necessitatibus rerum obcaecati commodi, nostrum cumque labore aspernatur illo id.
-        </p>
+        <p className="text-lg mb-4">Soy un coder enfocado en el desarrollo web frontend, actualmente me encuentro en adquirir experiencia trabajando con tecnologías modernas que se ajusten a los problemas en el mundo real.</p>
+        <p className="text-lg mb-4">Soy una persona curiosa y apasionada por la tecnología, en la que pueda aportar lo más posible en crear sitios y apps web intuitivas e interactivas, también focalizado al aspecto visual bien diseñado que pueda brindar una excelente experiencia de usuario.</p>
+        <p className="text-lg mb-4">Constantemente me esfuerzo en ampliar mis conocimientos y comprender conceptos que antes eran desconocidos para mí. Buscando maneras que pueda adaptarse a las necesidades de mis capacidades estimulantes, aplicando mis conocimientos a la práctica, también a la mejora continua.</p>
+        <div className="flex flex-col gap-4 w-full">
+          <h3 className="text-xl text-center">Algunas Skills clave</h3>
+          <ListSkillsTech />
+        </div>
       </div>
-      <div className="w-1/2">Image</div>
+      <div className="w-1/2">
+        <Image src='/assets/img/dev-coffee.jpg' alt="dev-front" width={350} height={350} className="hidden w-full h-full rounded-lg object-cover md:block" />
+      </div>
     </section>
   );
 }
