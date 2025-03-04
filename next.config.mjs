@@ -2,8 +2,12 @@
 const nextConfig = {
     images: {
         remotePatterns: [
-            { protocol: 'https', hostname: 'w0.peakpx.com' },
-            { protocol: 'https', hostname: 'res.cloudinary.com' },
+            {
+                protocol:'https',
+                hostname: '**',
+                port: '',
+                pathname: '**'
+            }
         ]
     }
 };
