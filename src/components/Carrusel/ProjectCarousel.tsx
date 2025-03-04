@@ -23,6 +23,7 @@ export default function ProjectsCarousel({ projects }: ProjectsCarouselProps) {
                 centeredSlides={false}
                 slidesPerView={1}
                 spaceBetween={20}
+                loop={true}
                 pagination={{ clickable: true, dynamicBullets: true }}
                 navigation={true}
                 autoplay={{ delay: 4000, disableOnInteraction: false }}

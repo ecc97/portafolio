@@ -54,3 +54,8 @@
 .cardProject:hover::after {
     left: 100%;
 }
+
+#demoBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
