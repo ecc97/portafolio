@@ -10,10 +10,10 @@ export default function Footer() {
                     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
                 </Link>
                 <Link href="https://x.com/ecckyo97" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter profile" />
+                    <img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter profile" />
                 </Link>
             </div>
-            <p>2024 ©️ ecc97. Todos los derechos reservados</p>
+            <p>{new Date().getFullYear()} ©️ ecc97. Todos los derechos reservados</p>
         </footer>
     )
 }
