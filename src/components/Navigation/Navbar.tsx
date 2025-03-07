@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { NavLinkItem } from "../NavLinkItem"; 
+import { NavLinkItem } from "./NavLinkItem"; 
 import styles from './Navbar.module.css'
 
 const navBarItems = [

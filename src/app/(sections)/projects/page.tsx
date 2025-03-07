@@ -1,5 +1,10 @@
 import { projects } from "@/utils/projects"
 import ProjectsCarousel from "@/components/Carrusel/ProjectCarousel"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Proyectos"
+}
 
 export default function ProjectsPage() {
     return (

@@ -1,5 +1,10 @@
 import ListSkillsTech from "@/components/Skills/ListSkillsTech";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Acerca de mi"
+}
 
 export default function AboutPage() {
   return (
