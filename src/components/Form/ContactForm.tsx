@@ -59,6 +59,8 @@ export default function ContactForm() {
             
             setSubmitStatus({ success: true, message: 'Formulario enviado con éxito.' });
         } catch (error) {
+            console.error(error);
+            console.error(error instanceof Error ? error.message : 'Error desconocido');
             setSubmitStatus({ success: false, message: error instanceof Error ? error.message : 'Error desconocido' });
         } finally {
             setIsSubmitting(false);
