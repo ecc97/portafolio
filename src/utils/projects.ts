@@ -63,5 +63,13 @@ export const projects: Project[] = [
         linkDemo: "https://api-openai.vercel.app/",
         image: "/assets/img/projects-web.png",
         badges: ["Next.js", "TypeScript", "Prisma", "OpenAI API"],
+    },
+    {
+        title: "System Invoicing",
+        description: "Aplicación web para la gestión de facturas que integra autenticación, creación, listado, actualización y eliminación de facturas, junto con el registro de pagos",
+        linkRepo: "https://github.com/ecc97/system-invoicing",
+        linkDemo: "https://system-invoicing.vercel.app/",
+        image: "/assets/img/projects-web.png",
+        badges: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
     }
 ];
