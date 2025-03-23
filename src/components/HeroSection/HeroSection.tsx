@@ -3,8 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import TitleRole from '../TitleRole/TitleRole'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import { IconSocialMedia } from '../Icons/iconSocialMedia'
 import styles from './hero.module.css'
 
 export default function HeroSection() {
@@ -15,18 +14,18 @@ export default function HeroSection() {
             <Image src='https://w0.peakpx.com/wallpaper/165/445/HD-wallpaper-neon-mask-hacker-hackers-lonely-hacker-neon-mask-thumbnail.jpg' alt='Avatar Picture' className={`mt-8 rounded-full ${styles.imgAvatar}`} width={200} height={200} />
             <div className='flex gap-3'>
                 <p className={`${styles.heroIconSocialNetwork} w-12 h-12`}>
-                    <a href='https://github.com/ecc97' target='_blank'>
-                        <FaGithub className='w-full h-full'/>
-                    </a>
+                    <Link href='https://github.com/ecc97' target='_blank'>
+                        {IconSocialMedia.GithubIcon({ className: 'w-full h-full' })}
+                    </Link>
                 </p>
                 <p className={`${styles.heroIconSocialNetwork} w-12 h-12`}>
                     <Link href='https://www.linkedin.com/in/edwin-carmona-c/' target='_blank'>
-                        <FaLinkedin className='w-full h-full'/>
+                        {IconSocialMedia.LinkedinIcon({ className: 'w-full h-full' })}
                     </Link>
                 </p>
                 <p className={`${styles.heroIconSocialNetwork} w-12 h-12`}>
                     <Link href='https://x.com/ecckyo97' target='_blank'>
-                        <FaXTwitter className='w-full h-full'/>
+                        {IconSocialMedia.TwitterIcon({ className: 'w-full h-full' })}
                     </Link>
                 </p>
             </div>
