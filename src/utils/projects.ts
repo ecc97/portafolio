@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        title: "Portfolio with Astro",
+        description: "Creación de un portfolio con Astro. Una versión de portafolio hecha con el framework de Astro para crear una página web rápida y eficiente",
+        linkRepo: "https://github.com/ecc97/portfolio-ecc-astro",
+        linkDemo: "https://edwcc.netlify.app/",
+        image: "/assets/img/projects-web.png",
+        badges: ["Astro", "TypeScript", "Tailwind", "Sass"],
+    },
+    {
         title: "Galería de imagenes",
         description: "Creación de una galería de imagenes usando Next.js y consumiendo la API de Pexels para mostrar una galería de imágenes dinámicas y filtrables",
         linkRepo: "https://github.com/ecc97/visionPx",
