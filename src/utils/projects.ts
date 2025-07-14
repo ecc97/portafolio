@@ -79,5 +79,14 @@ export const projects: Project[] = [
         linkDemo: "https://system-invoicing.vercel.app/",
         image: "/assets/img/projects-web.png",
         badges: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
+    },
+    {
+        title: "Hostalia",
+        description:
+            "Aplicación web para la gestión y reservas de alojamientos que permite a los usuarios explorar alojamientos, ver detalles, buscar, filtrar y realizar reservas",
+        linkRepo: "https://github.com/ecc97/hostalia",
+        linkDemo: "https://hostalia.vercel.app/",
+        image: "https://res.cloudinary.com/dtcdhb93h/image/upload/v1752525118/site-hostalia_jv2oce.webp",
+        badges: ["React", "Next.js", "TypeScript", "Appwrite", "Tailwind"],
     }
 ];
