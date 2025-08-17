@@ -1,6 +1,6 @@
 'use client';
 
-import { Project } from "@/utils/projects";
+import { Project } from "@/interfaces/IProject";
 import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
